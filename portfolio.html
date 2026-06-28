@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfólio | Portfólio</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="theme-light">
+        <!-- Cabeçalho com menu visível em todas as páginas -->
+        <header class="site-header">
+            <div class="container header-content">
+                <div class="brand">
+                    <span class="brand-name">Guilherme Gabriel</span>
+                    <span class="brand-role">Desenvolvedor Web</span>
+                </div>
+
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Abrir menu"
+                >
+                    ☰
+                </button>
+
+                <nav class="site-nav" id="siteNav">
+                    <a href="index.html">Sobre mim</a>
+                    <a href="formacao.html">Formação</a>
+                    <a href="portfolio.html">Portfólio</a>
+                    <a href="contato.html">Contato</a>
+                </nav>
+
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    aria-label="Alternar tema"
+                >
+                    Tema escuro
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <!-- Seção Portfólio -->
+            <section class="section">
+                <div class="container">
+                    <h1>Portfólio</h1>
+                    <p>Alguns trabalhos que já desenvolvi:</p>
+                    <div class="card-grid">
+                        <article class="card">
+                            <h3>Challenge One</h3>
+                            <p>
+                                Projeto do bootcamp web da Alura com Santander.
+                            </p>
+                            <a
+                                href="https://github.com/gabreoo/Challenge-ONE"
+                                target="_blank"
+                                rel="noopener"
+                                >Ver projeto</a
+                            >
+                        </article>
+
+                        <article class="card">
+                            <h3>Convert Project RocketSeat</h3>
+                            <p>Exercicio de JavaScript da RocketSeat</p>
+                            <a
+                                href="https://github.com/gabreoo/Convert-project"
+                                target="_blank"
+                                rel="noopener"
+                                >Ver projeto</a
+                            >
+                        </article>
+                    </div>
+                    <!-- Links reais dos projetos para avaliação -->
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>© 2026 Guilherme Gabriel. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head></head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>Portfólio | Contato</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-light">
+  <!-- Cabeçalho com menu visível em todas as páginas -->
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="brand">
+        <span class="brand-name">Guilherme Gabriel</span>
+        <span class="brand-role">Desenvolvedor Web</span>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Sobre mim</a>
+        <a href="formacao.html">Formação</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+        Tema escuro
+      </button>
+    </div>
+  </header>
+
+  <main>
+   </main> <!-- Seção Contato -->
+    <section class="section section-alt">
+      <div class="container">
+        <h1>Contato</h1>
+        <p>Preencha o formulário abaixo para entrar em contato comigo.</p>
+
+        <!-- Formulário com validação em JavaScript -->
+        <form id="contactForm" class="contact-form" novalidate>
+          <label for="</form>nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem"></textarea>
+
+          <button type="submit">Enviar</button>
+          <p id="formFeedback" class="form-feedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p></p>© 2026 Guilherme Gabriel. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
